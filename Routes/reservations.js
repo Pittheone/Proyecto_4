@@ -5,7 +5,7 @@ const reservationsController = require('../Controllers/reservationsController')
 
 router.post('/', reservationsController.create)
 
-router.get('/', reservationsController.readAll) /* localhost:3000/api/reservations */
+router.get('/', reservationsController.readAll) 
 
 router.put('/:id', reservationsController.update)
 
