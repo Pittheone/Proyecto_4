@@ -38,25 +38,6 @@ exports.readAll = async (req, res) => {
 }
 }
 
-exports.readOne = async (req, res) => {
-    try {
-    const reservationId = parseInt(req.params.id) 
-    const reservations = await readReservations()
-    const reservation = reservations.find( r => r.id === reservationId) 
-
-    if (!reservation) {
-        return res.status(404).json({ msg: "Sorry! Reservation not found" })
-    }
-
-    res.json({
-        msg: "Reservation read succesfully.",
-        data: reservations
-    })
-
-} catch (error) {
-    res.status(500).json({ msg: "Error reading reservation"});
-}
-}
 
 exports.update = async (req, res) => {
     try{

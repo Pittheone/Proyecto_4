@@ -3,7 +3,7 @@
 
 Este proyecto es para aplicar las operaciones CRUD, utulizando node y express para su uso. Como detallado en la explicación del proyecto, es para hacer un sistema de reservas de hotel. También el proyecto tiene permanencia en la carpeta de data donde se encuentra database.json . 
 
-El port del proyecto es:
+## El port del proyecto es:
 PORT=3000
 y el URl del server es:
 SERVER_URL=http://localhost:3000 
