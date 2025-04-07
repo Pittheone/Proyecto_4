@@ -14,12 +14,12 @@ const swaggerOptions = {
     definition: {
         openapi: '3.0.0',
         info: {
-            title: 'Node API for Rservation Management', //reservation manager
+            title: 'Node API for Rservation Management', 
             version: '1.0.0',
         },
         servers: [
             {
-                url: serverUrl, //http://localhost:${port}
+                url: serverUrl
             },
         ],
     },
